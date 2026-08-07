@@ -1,0 +1,38 @@
+name: Architecture proposal
+description: Propose a significant technical or cross-repository design change.
+title: "[Architecture]: "
+labels:
+  - architecture
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read OPENHEALTHOS_CONTEXT.md before submitting. Do not include sensitive data.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and problem
+      description: Explain the current state, need, and affected repositories.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed architecture
+      description: Include components, boundaries, interfaces, and data flow.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and trade-offs
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Interoperability, security, privacy, and migration impact
+      description: Address FHIR/API contracts, sensitive data, AI safety, and rollout or compatibility considerations.
+    validations:
+      required: true
+

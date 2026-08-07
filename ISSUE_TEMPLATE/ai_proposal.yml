@@ -1,0 +1,37 @@
+name: AI proposal
+description: Propose an AI, ML, clinical NLP, or research capability.
+title: "[AI]: "
+labels:
+  - ai
+body:
+  - type: markdown
+    attributes:
+      value: |
+        AI proposals must not include patient data, credentials, or proprietary datasets.
+        AI output is not a clinical decision.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended users
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+      description: Describe models, inputs, outputs, integration points, and alternatives.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety, privacy, and evaluation plan
+      description: Explain human oversight, data provenance, bias and failure modes, privacy, and how results will be evaluated.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and licensing
+      description: Identify datasets, models, services, licenses, and attribution requirements.
+
