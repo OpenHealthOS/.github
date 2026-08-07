@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement to OpenHealthOS.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals should not contain patient data, credentials, or sensitive information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user, developer, researcher, or operational need does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: interoperability
+    attributes:
+      label: Interoperability, security, and privacy impact
+      description: State "None" or describe relevant FHIR, API, AI, security, or privacy implications.
+
