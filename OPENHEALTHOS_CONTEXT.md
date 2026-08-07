@@ -712,7 +712,7 @@ Next major focus:
 
 ---
 
-# 23. NIW / PROFESSIONAL IMPACT STRATEGY
+# 23. PROFESSIONAL IMPACT STRATEGY
 
 OpenHealthOS is intended to create genuine technical and community impact
 in healthcare technology.
