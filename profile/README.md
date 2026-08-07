@@ -20,21 +20,21 @@ architecture, and artificial intelligence into an extensible open-source
 platform.
 
 ```text
-                    OpenHealthOS
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-   Healthcare        Interoperability    AI / ML
-      Data               FHIR
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                  Cloud-Native Platform
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-      APIs           Microservices      Events
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                  Developer Ecosystem
+                    
+                 OpenHealthOS
+                      │
+       ┌──────────────┼─────────────┐
+       │              │             │
+Interoperability   AI / ML      Healthcare Data
+       │              │             │
+       └──────────────┼─────────────┘
+                      │
+                 Open Platform
+                      │
+        ┌─────────────┼────────────┐
+        │             │            │
+     Developers   Researchers  Organizations
+        │             │            │
+        └─────────────┼────────────┘
+                      │
+               Better Healthcare
